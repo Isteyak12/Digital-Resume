@@ -89,7 +89,7 @@ st.write("""
 st.write("---")
 # --- WORK HISTORY ---
 st.write('\n')
-st.subheader("Work History")
+st.subheader("⚡ Work History")
 # --- JOB 1
 st.write("🧑🏻‍💻", "**Teaching Assistant | University of Windsor**")
 st.write("*Aug 2023 - Present*")
