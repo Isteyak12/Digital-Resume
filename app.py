@@ -80,19 +80,19 @@ st.write('\n')
 st.subheader("🛠️ Technical Skills")
 st.write("""
 - 👩‍💻 Programming Languages: Python, Java, C++, C
-• Web Development:  HTML, CSS, JavaScript. 
-• Streamlit  App Development. 
-• tKinter GUI App Development. 
-• Data Structures  and Algorithms. 
+- Web Development:  HTML, CSS, JavaScript. 
+- Streamlit  App Development. 
+- tKinter GUI App Development. 
+- Data Structures  and Algorithms. 
 """)
 
+st.write("---")
 # --- WORK HISTORY ---
 st.write('\n')
 st.subheader("Work History")
-st.write("---")
 # --- JOB 1
 st.write("🧑🏻‍💻", "**Teaching Assistant | University of Windsor**")
-st.write("Aug 2023 - Present")
+st.write("*Aug 2023 - Present*")
 st.write(
     """
 - ► Mentored more than 100+ students single-handedly in the absence of TAs during labs. 
@@ -103,7 +103,7 @@ individual student within 1 day.
 )
 # --- JOB 2
 st.write("💎", "**Event Assistant | A.C.M. Club Independent  University, Bangladesh**")
-st.write("Mar 2021 - Aug 2022")
+st.write("*Mar 2021 - Aug 2022*")
 st.write(
     """
 - ► Assisted with organizing  10 events per annum related to computer  science and technology  with no 
@@ -113,37 +113,38 @@ st.write(
 """
 )
 
+st.write("---")
 #---Education--
 st.write('\n')
 st.subheader("🎓 Education:")
-st.subheader("January 2021 - Aug 2022")
-st.subheader("Bachelor  of Computer  Science, Honors Applied Computing Co-op")
+# st.write("")
+st.write("Bachelor  of Computer  Science, Honors Applied Computing CO-OP | January 2021 - Aug 2022")
 st.write("""
 - Major average: 87.0.
 """)
 
 st.write('\n')
-st.subheader("January 2022 - Present")
-st.subheader("Bachelor  of Computer  Science, Honors Applied Computing Co-op")
+# st.write("January 2022 - Present")
+st.write("Bachelor  of Computer  Science, Honors Applied Computing Co-op | January 2022 - Present")
 st.write("""
-• Attained Dean's  Honor's  List Award for Summer 2021. 
-• Achieved Dean's  List Award for Spring 2022.
+- ► Attained Dean's  Honor's  List Award for Summer 2021. 
+- ► Achieved Dean's  List Award for Spring 2022.
 """)
 
-
+st.write("---")
 st.write('\n')
 st.subheader("💡 Projects:")
-st.subheader("Sep 2023 - Present")
-st.subheader("NASA Space Apps Hackathon  Windsor Edition")
+# st.write("")
+st.write("NASA Space Apps Hackathon  Windsor Edition | Sep 2023 - Present")
 st.write("""
-• Cleaned a database and converted it to a JSON file using Streamlit technology. 
-• Implemented  a search bar option for user-friendly  data retrieval. 
-• Automated  machine-independent  digital resume web page portfolio based on Streamlit technology. 
+- ► Cleaned a database and converted it to a JSON file using Streamlit technology. 
+- ► Implemented  a search bar option for user-friendly  data retrieval. 
+- ► Automated  machine-independent  digital resume web page portfolio based on Streamlit technology. 
 """)
 
 st.write('\n')
-st.subheader("Aug 2023 - Present")
-st.subheader("Docker Container  for Python  Web Application")
+# st.write("")
+st.write("Docker Container  for Python  Web Application | Aug 2023 - Present")
 st.write("""
 • Configured  with containerization  of a web page to make it  runnable on any machine. """)
 # st.write('\n')
