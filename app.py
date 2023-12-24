@@ -118,14 +118,14 @@ st.write("---")
 st.write('\n')
 st.subheader("🎓 Education")
 # st.write("")
-st.write("Bachelor  of Computer  Science, Honors Applied Computing CO-OP | January 2021 - Aug 2022")
+st.write("Bachelor  of Computer  Science, Honors Applied Computing CO-OP | Jan 2021 - Aug 2022")
 st.write("""
 - Major average: 87.0.
 """)
 
 st.write('\n')
 # st.write("January 2022 - Present")
-st.write("Bachelor  of Computer  Science, Honors Applied Computing Co-op | January 2022 - Present")
+st.write("Bachelor  of Computer  Science, Honors Applied Computing Co-op | Jan 2022 - Present")
 st.write("""
 -  Attained Dean's  Honor's  List Award for Summer 2021. 
 -  Achieved Dean's  List Award for Spring 2022.
