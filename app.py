@@ -55,13 +55,13 @@ with col1:
             data=PDFbyte,
             file_name=resume_file.name,
             mime="application/octet-stream",)
-        st.write("📫", EMAIL)
+        # st.write("📫", EMAIL)
 
 # --- SOCIAL LINKS ---
-st.write("#")
-cols=st.columns(len(SOCIAL_MEDIA))
-for index, (platform, link) in enumerate(SOCIAL_MEDIA.items()):
-      cols[index].write(f"[{platform}]({link})")
+# st.write("#")
+# cols=st.columns(len(SOCIAL_MEDIA))
+# for index, (platform, link) in enumerate(SOCIAL_MEDIA.items()):
+#       cols[index].write(f"[{platform}]({link})")
         
         
 # ---EXPERIENCE & QUALIFICATIONS ---
@@ -95,9 +95,9 @@ st.write("🧑🏻‍💻", "**Teaching Assistant | University of Windsor**")
 st.write("*Aug 2023 - Present*")
 st.write(
     """
-- ► Mentored more than 100+ students single-handedly in the absence of TAs during labs. 
-- ► Guided students  with understanding  of codes correlating  to its algorithm. 
-- ► Checked and marked 100+ assignments  within a tight schedule and provided feedback  to every 
+-  Mentored more than 100+ students single-handedly in the absence of TAs during labs. 
+-  Guided students  with understanding  of codes correlating  to its algorithm. 
+-  Checked and marked 100+ assignments  within a tight schedule and provided feedback  to every 
 individual student within 1 day.
 """
 )
@@ -106,9 +106,9 @@ st.write("💎", "**Event Assistant | A.C.M. Club Independent  University, Bangl
 st.write("*Mar 2021 - Aug 2022*")
 st.write(
     """
-- ► Assisted with organizing  10 events per annum related to computer  science and technology  with no 
+-  Assisted with organizing  10 events per annum related to computer  science and technology  with no 
     less than 70% attendance  per event. 
-- ► Collaborated  with others as a team for event logistics, including venue selection,  setup, and 
+-  Collaborated  with others as a team for event logistics, including venue selection,  setup, and 
     equipment  arrangement,  ensuring events were well-prepared  and visually appealing
 """
 )
@@ -116,7 +116,7 @@ st.write(
 st.write("---")
 #---Education--
 st.write('\n')
-st.subheader("🎓 Education:")
+st.subheader("🎓 Education")
 # st.write("")
 st.write("Bachelor  of Computer  Science, Honors Applied Computing CO-OP | January 2021 - Aug 2022")
 st.write("""
@@ -127,29 +127,36 @@ st.write('\n')
 # st.write("January 2022 - Present")
 st.write("Bachelor  of Computer  Science, Honors Applied Computing Co-op | January 2022 - Present")
 st.write("""
-- ► Attained Dean's  Honor's  List Award for Summer 2021. 
-- ► Achieved Dean's  List Award for Spring 2022.
+-  Attained Dean's  Honor's  List Award for Summer 2021. 
+-  Achieved Dean's  List Award for Spring 2022.
 """)
 
 st.write("---")
 st.write('\n')
-st.subheader("💡 Projects:")
+st.subheader("💡 Projects")
 # st.write("")
 st.write("NASA Space Apps Hackathon  Windsor Edition | Sep 2023 - Present")
 st.write("""
-- ► Cleaned a database and converted it to a JSON file using Streamlit technology. 
-- ► Implemented  a search bar option for user-friendly  data retrieval. 
-- ► Automated  machine-independent  digital resume web page portfolio based on Streamlit technology. 
+-  Cleaned a database and converted it to a JSON file using Streamlit technology. 
+-  Implemented  a search bar option for user-friendly  data retrieval. 
+-  Automated  machine-independent  digital resume web page portfolio based on Streamlit technology. 
 """)
 
 st.write('\n')
 # st.write("")
 st.write("Docker Container  for Python  Web Application | Aug 2023 - Present")
 st.write("""
-• Configured  with containerization  of a web page to make it  runnable on any machine. """)
+- Configured  with containerization  of a web page to make it  runnable on any machine. """)
 # st.write('\n')
 # st.subheader("Projects & Accomplishments")
 # st.write("---")
 # for project, link in PROJECTS.items():
 #     st.write(f"[{project}]({link})")
-    
+   
+st.write('\n')
+st.write("---")
+st.subheader("**PLEASE CONTACT ME VIA:**")
+st.markdown("[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/isteyak-409578230/)")
+st.markdown("[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Isteyak12)")
+st.markdown("[![YouTube](https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://www.youtube.com/channel/UCrGx72-VbdhGtzibiOawfIQ)")
+st.markdown("[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:isteyak@uwindsor.ca)")
