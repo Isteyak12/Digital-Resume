@@ -6,7 +6,7 @@ import streamlit as st
 current_dir = Path(__file__).parent if "__file__" in locals() else Path.cwd()
 # css_file = current_dir / "styles" / "main.css"
 resume_file = current_dir / "assets" / "isteyak_cs_resume.pdf"
-profile_pic = current_dir / "assets" / "profile_pic.jpg"
+profile_pic = current_dir / "assets" / "profile_pic.png"
 
 
 # --- GENERAL SETTINGS ---
@@ -41,8 +41,8 @@ st.title("Hello Friends!")
 #     st.markdown("<style>{}</style>".format(f.read()), unsafe_allow_html=True)
 with open(resume_file, "rb") as pdf_file:
     PDFbyte = pdf_file.read()
+    
 profile_pic = Image.open(profile_pic)
-
 # --HERO SECTION---
 col1, col2= st.columns(2, gap="small")
 with col2:
@@ -77,29 +77,78 @@ st.write("""
 
 #---SKILLS--
 st.write('\n')
-st.subheader("Hard Skills")
+st.subheader("Technical Skills")
 st.write("""
-- 👩‍💻 Programming: Python, Java, C++, C
-         """)
+- 👩‍💻 Programming Languages: Python, Java, C++, C
+• Web Development:  HTML, CSS, JavaScript. 
+• Streamlit  App Development. 
+• tKinter GUI App Development. 
+• Data Structures  and Algorithms. 
+""")
 
 # --- WORK HISTORY ---
 st.write('\n')
 st.subheader("Work History")
 st.write("---")
-
 # --- JOB 1
-st.write("🚧", "**Teacher's Assistant | University of Windsor**")
-st.write("09/2023 - Present")
+st.write("🚧", "**Teaching Assistant | University of Windsor**")
+st.write("Aug 2023 - Present")
 st.write(
     """
-- ► Mentored more than 100+ students single-handedly in the absence of TAs during labs 
-
+- ► Mentored more than 100+ students single-handedly in the absence of TAs during labs. 
+- ► Guided students  with understanding  of codes correlating  to its algorithm. 
+- ► Checked and marked 100+ assignments  within a tight schedule and provided feedback  to every 
+individual student within 1 day.
+"""
+)
+# --- JOB 2
+st.write("🚧", "**Event Assistant | A.C.M. Club Independent  University, Bangladesh**")
+st.write("Mar 2021 - Aug 2022")
+st.write(
+    """
+- ► Assisted with organizing  10 events per annum related to computer  science and technology  with no 
+    less than 70% attendance  per event. 
+- ► Collaborated  with others as a team for event logistics, including venue selection,  setup, and 
+    equipment  arrangement,  ensuring events were well-prepared  and visually appealing
 """
 )
 
+#---Education--
 st.write('\n')
-st.subheader("Projects & Accomplishments")
-st.write("---")
-for project, link in PROJECTS.items():
-    st.write(f"[{project}]({link})")
+st.subheader("Education")
+st.subheader("January 2021 - Aug 2022")
+st.subheader("Bachelor  of Computer  Science, Honors Applied Computing Co-op")
+st.write("""
+- Major average: 87.0.
+""")
+
+st.write('\n')
+st.subheader("January 2022 - Present")
+st.subheader("Bachelor  of Computer  Science, Honors Applied Computing Co-op")
+st.write("""
+• Attained Dean's  Honor's  List Award for Summer 2021. 
+• Achieved Dean's  List Award for Spring 2022.
+""")
+
+
+st.write('\n')
+st.subheader("Projects")
+st.subheader("Sep 2023 - Present")
+st.subheader("NASA Space Apps Hackathon  Windsor Edition")
+st.write("""
+• Cleaned a database and converted it to a JSON file using Streamlit technology. 
+• Implemented  a search bar option for user-friendly  data retrieval. 
+• Automated  machine-independent  digital resume web page portfolio based on Streamlit technology. 
+""")
+
+st.write('\n')
+st.subheader("Aug 2023 - Present")
+st.subheader("Docker Container  for Python  Web Application")
+st.write("""
+• Configured  with containerization  of a web page to make it  runnable on any machine. """)
+# st.write('\n')
+# st.subheader("Projects & Accomplishments")
+# st.write("---")
+# for project, link in PROJECTS.items():
+#     st.write(f"[{project}]({link})")
     
