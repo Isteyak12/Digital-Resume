@@ -66,7 +66,7 @@ for index, (platform, link) in enumerate(SOCIAL_MEDIA.items()):
         
 # ---EXPERIENCE & QUALIFICATIONS ---
 st.write("#")
-st.subheader("Experience & Qualifications")
+st.subheader("🌐 Experience & Qualifications")
 st.write("""
 - ✔️ Strong hands-on experience and knowledge in Python and Java
 - ✅ Good understanding of statistical principles and their respective applications
@@ -77,7 +77,7 @@ st.write("""
 
 #---SKILLS--
 st.write('\n')
-st.subheader("Technical Skills")
+st.subheader("🛠️ Technical Skills")
 st.write("""
 - 👩‍💻 Programming Languages: Python, Java, C++, C
 • Web Development:  HTML, CSS, JavaScript. 
@@ -91,7 +91,7 @@ st.write('\n')
 st.subheader("Work History")
 st.write("---")
 # --- JOB 1
-st.write("🚧", "**Teaching Assistant | University of Windsor**")
+st.write("🧑🏻‍💻", "**Teaching Assistant | University of Windsor**")
 st.write("Aug 2023 - Present")
 st.write(
     """
@@ -102,7 +102,7 @@ individual student within 1 day.
 """
 )
 # --- JOB 2
-st.write("🚧", "**Event Assistant | A.C.M. Club Independent  University, Bangladesh**")
+st.write("💎", "**Event Assistant | A.C.M. Club Independent  University, Bangladesh**")
 st.write("Mar 2021 - Aug 2022")
 st.write(
     """
@@ -115,7 +115,7 @@ st.write(
 
 #---Education--
 st.write('\n')
-st.subheader("Education")
+st.subheader("🎓 Education:")
 st.subheader("January 2021 - Aug 2022")
 st.subheader("Bachelor  of Computer  Science, Honors Applied Computing Co-op")
 st.write("""
@@ -132,7 +132,7 @@ st.write("""
 
 
 st.write('\n')
-st.subheader("Projects")
+st.subheader("💡 Projects:")
 st.subheader("Sep 2023 - Present")
 st.subheader("NASA Space Apps Hackathon  Windsor Edition")
 st.write("""
