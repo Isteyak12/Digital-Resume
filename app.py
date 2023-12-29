@@ -68,10 +68,10 @@ with col1:
 st.write("#")
 st.subheader("🌐 Experience & Qualifications")
 st.write("""
-- ✔️ Strong hands-on experience and knowledge in Python and Java
-- ✅ Good understanding of statistical principles and their respective applications
-- ✔️ Excellent team player and displaying a strong sense of initiative on tasks
-- ✅ Intuitive understanding of linear algebra-based applications
+-  Strong hands-on experience and knowledge in Python and Java
+-  Good understanding of statistical principles and their respective applications
+-  Excellent team player and displaying a strong sense of initiative on tasks
+-  Intuitive understanding of linear algebra-based applications
 """
 )
 
@@ -119,16 +119,16 @@ st.write('\n')
 st.subheader("🎓 Education")
 # st.write("")
 # st.write("---")
-st.subheader("University of Windsor, Windsor, ON")
-st.write("Bachelor  of Computer  Science, Honors Applied Computing CO-OP  |  [Jan 2023 – Present]")
+st.subheader("University of Windsor, Windsor, ON | [Jan 2023 – Present]")
+st.write("Bachelor  of Computer  Science, Honors Applied Computing CO-OP ")
 st.write("""
 - Major average: 87.0.
 """)
 
 # st.write("---")
 # st.write("January 2022 - Present")
-st.subheader("Independent University, Bangladesh")
-st.write("B.Sc. in Computer Science & Engineering (CSE)  |  [Jan 2021 - Aug 2022]")
+st.subheader("Independent University, Bangladesh | [Jan 2021 - Aug 2022]")
+st.write("B.Sc. in Computer Science & Engineering")
 st.write("""
 - Attained Dean's Honor's List Award for Summer 2021.
 - Achieved Dean's List Award for Spring 2022.
@@ -138,7 +138,7 @@ st.write("---")
 st.write('\n')
 st.subheader("💡 Projects")
 # st.write("")
-st.write("🚀 NASA Space Apps Hackathon  Windsor Edition  |  [Sep 2023 - Present]")
+st.subheader("🚀 NASA Space Apps Hackathon  Windsor Edition")
 st.write("""
 -  Cleaned a database and converted it to a JSON file using Streamlit technology. 
 -  Implemented  a search bar option for user-friendly  data retrieval. 
@@ -147,7 +147,7 @@ st.write("""
 
 st.write('\n')
 # st.write("")
-st.write("🐳 Docker Containerization and CI/CD Workflow   |   [Aug 2023 – Present]")
+st.subheader("🐳 Docker Containerization and CI/CD Workflow")
 st.write("""
 - Configured  with containerization  of a web page to make it  runnable on any machine. 
 - Orchestrated Docker containers for a Python web app, ensuring seamless deployment across various 
