@@ -5,21 +5,28 @@ import streamlit as st
 # --- PATH SETTINGS ---
 current_dir = Path(__file__).parent if "__file__" in locals() else Path.cwd()
 # css_file = current_dir / "styles" / "main.css"
-resume_file = current_dir / "assets" / "isteyak_cs_resume.pdf"
+resume_file = current_dir / "isteyak_cs_resume.pdf"
 profile_pic = current_dir / "assets" / "profile_pic.png"
 
 
 # --- GENERAL SETTINGS ---
 PAGE_TITLE = "Digital CV | Isteyak"
-PAGE_ICON = ":wave:"
 NAME = "Isteyak "
 DESCRIPTION = """
-To introduce myself to you, I am a third year computer science student at the University of Windsor currently pursuing Bachelor of Computer Science and actively looking for coop opportunities. 
-I have started my computer science journey back in 2021 at the highest ranked private university of Bangladesh, infamously known as Independent University, Bangladesh until I transferred to University of Windsor for a better hands-on learning experience. 
-As a volunteer in the systems administration position, I am currently working for DEFEND, a tech company known for making technologies that are focused primarily on the authentication systems for the safety of vulnerable people.
-Similarly, it has been a great Fall 2023 semester as a teaching assistant for the Data Structure and Algorithms course at the University of Windsor.
-Fun fact: I am a big fan of C++ but my projects are based on Python. Personally, I believe I make the best chicken stew and love listening to R&B, soft rock and on weekends I find it cool riding escooter in the middle of the night.
-"""
+I am a third-year student at the University of Windsor currently pursuing a Bachelor of
+Computer Science degree and actively looking for coop opportunities. I have started my 
+computer science journey back in 2021 at the highest ranked private university of 
+Bangladesh, infamously known as Independent University, Bangladesh, until I transferred 
+to University of Windsor for a better hands-on learning experience. As a volunteer in a 
+systems administration position, I am currently working for DEFEND, a tech company known
+for making technologies that are focused primarily on authentication systems for the safety 
+of vulnerable people. Similarly, it has been a great Fall 2023 semester as I was a teaching
+assistant for a data structure and algorithms course at the University of Windsor where 
+I taught 100+ students how to apply Java in various data structure problems. 
+Fun fact: I am a big fan of C++, but my projects are based on Python. Personally, 
+I believe I make the best chicken stew, I love listening to R&B and soft rock, and on 
+weekends, I enjoy riding my E Scooter at night."""
+
 EMAIL = "isteyak@uwindsor.ca"
 SOCIAL_MEDIA = {
     "YouTube": "https://www.youtube.com/channel/UCrGx72-VbdhGtzibiOawfIQ",
@@ -91,7 +98,7 @@ st.write("---")
 st.write('\n')
 st.subheader("⚡ Work History")
 # --- JOB 1
-st.write("🧑🏻‍💻", "**Teaching Assistant | University of Windsor**")
+st.write("**Teaching Assistant | University of Windsor**")
 st.write("*Aug 2023 - Present*")
 st.write(
     """
@@ -119,16 +126,18 @@ st.write('\n')
 st.subheader("🎓 Education")
 # st.write("")
 # st.write("---")
-st.subheader("University of Windsor, Windsor, ON | [Jan 2023 – Present]")
+st.subheader("University of Windsor, Windsor, ON")
+st.write("*[Jan 2023 – Present]*")
 st.write("Bachelor  of Computer  Science, Honors Applied Computing CO-OP ")
 st.write("""
-- Major average: 87.0.
+- Major average: 83.0.
 """)
 
 # st.write("---")
 # st.write("January 2022 - Present")
-st.subheader("Independent University, Bangladesh | [Jan 2021 - Aug 2022]")
-st.write("B.Sc. in Computer Science & Engineering")
+st.subheader("Independent University, Bangladesh")
+st.write("*[Jan 2021 - Aug 2022]*")
+st.write("Bachelor of Science in Computer Science & Engineering")
 st.write("""
 - Attained Dean's Honor's List Award for Summer 2021.
 - Achieved Dean's List Award for Spring 2022.
@@ -166,5 +175,4 @@ st.write("---")
 st.subheader("**PLEASE CONTACT ME VIA:**")
 st.markdown("[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/isteyak-409578230/)")
 st.markdown("[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Isteyak12)")
-st.markdown("[![YouTube](https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://www.youtube.com/channel/UCrGx72-VbdhGtzibiOawfIQ)")
 st.markdown("[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:isteyak@uwindsor.ca)")
