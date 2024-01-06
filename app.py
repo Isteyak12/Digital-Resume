@@ -29,7 +29,6 @@ weekends, I enjoy riding my E Scooter at night."""
 
 EMAIL = "isteyak@uwindsor.ca"
 SOCIAL_MEDIA = {
-    "YouTube": "https://www.youtube.com/channel/UCrGx72-VbdhGtzibiOawfIQ",
     "LinkedIn": "https://www.linkedin.com/in/isteyak-409578230/",
     "GitHub": "https://github.com/Isteyak12",
 
@@ -39,7 +38,7 @@ PROJECTS = {
     "🏆Github Repos--> ": "https://github.com/Isteyak12?tab=repositoriess",
 }
 
-st.set_page_config(page_title=PAGE_TITLE, page_icon=PAGE_ICON)
+st.set_page_config(page_title=PAGE_TITLE)
 st.title("Hello, Friends!")
 
 
