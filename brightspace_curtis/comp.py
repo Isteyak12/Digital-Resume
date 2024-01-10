@@ -13,7 +13,6 @@ def display_person(name, description, email, image_path, size):
         st.title(name)
         st.write(description)
         st.write("📫", email)
-        
 
 # Define details for multiple people
 people_info = [
@@ -26,7 +25,7 @@ people_info = [
         to University of Windsor for a better hands-on learning experience. As a volunteer in a
         """,
         "email": "jovic@uwindsor.ca",
-        "image_path": "tesla.jpg",
+        "image_path": "images/tesla.jpg",
         "size": 260
     },
     # Add more people with their details in the same format
@@ -34,35 +33,28 @@ people_info = [
         "name": "Isteyak",
         "description": "Hey, how u doin'...",
         "email": "isteyak@uwindsor.ca",
-        "image_path": "deadpool.jpg",
+        "image_path": "images/deadpool.jpg",
         "size": 260
     },
     {
         "name": "Aiden",
         "description": "Hola'...",
-        "email": "isteyak@uwindsor.ca",
-        "image_path": "aiden.jpg",
+        "email": "aiden@uwindsor.ca",
+        "image_path": "images/aiden.jpg",
         "size": 260
     },
     {
-        "name": "Boi",
-        "description": "Hola'...",
-        "email": "isteyak@uwindsor.ca",
-        "image_path": "Johnny_Silverhand.webp",
+        "name": "Johnny",
+        "description": "Johnny Silverhand...",
+        "email": "johnny@cyberpunk.ca",
+        "image_path": "images/Johnny_Silverhand.webp",
         "size": 260
     },
     {
-        "name": "Boi",
-        "description": "Hola'...",
-        "email": "isteyak@uwindsor.ca",
-        "image_path": "Johnny_Silverhand.webp",
-        "size": 260
-    },
-    {
-        "name": "Boi",
-        "description": "Hola'...",
-        "email": "isteyak@uwindsor.ca",
-        "image_path": "cap.jpg",
+        "name": "Captain America",
+        "description": "The First Avenger...",
+        "email": "cap@avengers.com",
+        "image_path": "images/cap.jpg",
         "size": 260
     },
     # Add as many people as needed
