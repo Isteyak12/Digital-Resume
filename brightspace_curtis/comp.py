@@ -2,8 +2,6 @@ from PIL import Image
 import streamlit as st
 
 # Function to display a block for a person
-
-
 def display_person(name, description, email, image_path, size):
     profile_pic = Image.open(image_path)
     profile_pic.thumbnail((size, size))
@@ -16,7 +14,6 @@ def display_person(name, description, email, image_path, size):
         st.write(description)
         st.write("📫", email)
         
-
 
 # Define details for multiple people
 people_info = [
@@ -60,7 +57,8 @@ people_info = [
         "email": "isteyak@uwindsor.ca",
         "image_path": "Johnny_Silverhand.webp",
         "size": 260
-    },    {
+    },
+    {
         "name": "Boi",
         "description": "Hola'...",
         "email": "isteyak@uwindsor.ca",
