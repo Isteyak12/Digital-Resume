@@ -85,7 +85,7 @@ st.write("""
 st.write('\n')
 st.subheader("🛠️ Technical Skills")
 st.write("""
-- 👩‍💻 Programming Languages: Python, Java, C++, C
+- Programming Languages: Python, Java, C++, C
 - Web Development:  HTML, CSS, JavaScript. 
 - Streamlit  App Development. 
 - tKinter GUI App Development. 
