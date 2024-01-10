@@ -21,7 +21,12 @@ def display_person(name, description, email, image_path, size):
 people_info = [
     {
         "name": "Jovic",
-        "description": "Meme King...",
+        "description": """I am a third-year student at the University of Windsor currently pursuing a Bachelor of
+        Computer Science degree and actively looking for coop opportunities. I have started my
+        computer science journey back in 2021 at the highest ranked private university of
+        Bangladesh, infamously known as Independent University, Bangladesh, until I transferred
+        to University of Windsor for a better hands-on learning experience. As a volunteer in a
+        """,
         "email": "jovic@uwindsor.ca",
         "image_path": "tesla.jpg",
         "size": 260
