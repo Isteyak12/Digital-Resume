@@ -8,13 +8,14 @@ def display_person(name, description, email, image_path, size):
     profile_pic = Image.open(image_path)
     profile_pic.thumbnail((size, size))
 
-    col1, col2 = st.columns([1, 2])
+    col1, col2 = st.columns([1, 1])
     with col1:
         st.image(profile_pic)
     with col2:
         st.title(name)
         st.write(description)
         st.write("📫", email)
+        
 
 
 # Define details for multiple people
@@ -78,3 +79,4 @@ for person in people_info:
         person["image_path"],
         person["size"]
     )
+    st.write('\n')
