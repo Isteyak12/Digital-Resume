@@ -1,3 +1,2 @@
-altair
-pandas
-streamlit 
+streamlit==1.27.2
+Pillow==8.4.0  # Only if you are using Pillow explicitly
